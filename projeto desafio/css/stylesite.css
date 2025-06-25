@@ -1,0 +1,120 @@
+/*estilos do site(eu particularmente chamo de cara)*/
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f9fafb; /*como é um site para o governo norte coreano, decidi seria melhor de fundo claro*/
+    color: #111827; /* cor de texto escura para contraste :) */
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background: linear-gradient(to right, #1d4ed8, #1e40af); /* gradiente azul para combinar :D */
+    color: #ffffff; /* Texto branco para contraste */
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* sombrinha sutil (o minimo)*/
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #1f2937; /* fundo escuro */
+    color: #e5e7eb; /* texto claro */
+    text-align: center;
+    padding: 1rem;
+    border-top: 2px solid #374151; /* linha de separação */
+}
+
+/* estilos para links */
+a {
+    color: #2563eb; /* azul novamente */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1d4ed8; /* azul mais escuro ao passar o mouse */
+}
+
+/* estilos para imagens */
+img {
+    max-width: 100%; /* responsividade */
+    height: auto;
+    border-radius: 8px; /* 0ordas arredondadas para um visual elegante */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: none; /* Remove qualquer animação ou transição */
+}
+
+/* Estilos para caixas de imagens */
+.image-box {
+    background-color: #ffffff; /* fundo branco */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 1rem;
+    transition: none; /* Remove qualquer animação ou transição */
+}
+
+/* Estilos para navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    background-color: #2563eb; /* Fundo azul ao passar o mouse */
+}
+
+/* Estilos para seções */
+section {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    background-color: #ffffff; /* Fundo branco para contraste */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilos para títulos */
+h1, h2, h3 {
+    color: #1f2937; /* Cor escura para títulos */
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+/* Estilos para botões */
+button {
+    background-color: #2563eb; /* Azul elegante */
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8; /* Azul mais escuro ao passar o mouse */
+}
